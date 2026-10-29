@@ -18,10 +18,11 @@ jobs:
         run: ./runtime/python.exe -X utf8 -m unittest test_server.py -v
       - name: Package
         shell: powershell
-        run: ./runtime/python.exe -X utf8 build_release.py
+        run: |
+          ./runtime/python.exe -X utf8 build_release.py
+          New-Item -ItemType Directory -Force dist | Out-Null
+          Copy-Item ../*.zip,../*.sha256 -Destination dist
       - uses: actions/upload-artifact@v4
         with:
           name: windows-portable
-          path: |
-            ../日有所积-Windows便携版.zip
-            ../日有所积-Windows便携版.zip.sha256
+          path: dist/
