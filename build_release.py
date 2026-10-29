@@ -4,7 +4,7 @@ import zipfile, hashlib, json
 
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT.parent/'日有所积-Windows便携版.zip'
-FILES=['README.md','COPYRIGHT.md','THIRD_PARTY_NOTICES.md','default-quotes.md','server.py','diary_routing.py','open.ps1','schedule.ps1','install.ps1','bootstrap.ps1','restart.ps1','更新并打开.cmd','启动日有所积.cmd','日有所积.exe']
+FILES=['LICENSE','README.md','COPYRIGHT.md','THIRD_PARTY_NOTICES.md','default-quotes.md','server.py','diary_routing.py','open.ps1','schedule.ps1','install.ps1','bootstrap.ps1','restart.ps1','更新并打开.cmd','启动日有所积.cmd','日有所积.exe']
 README='''日有所积 · Windows 10/11 64 位便携版
 
 1. 完整解压到一个普通文件夹。

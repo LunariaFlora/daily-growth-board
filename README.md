@@ -105,4 +105,4 @@ launcher.cs          Windows 启动器
 
 ## 许可与素材
 
-项目许可见 `COPYRIGHT.md`；第三方代码与运行环境遵循其自身许可，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。背景图为 AI 生成，SVG 图标为项目绘制；公开古典金句保留出处。
+本项目采用 [MIT 许可证](LICENSE)；第三方代码与运行环境遵循其自身许可，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。背景图为 AI 生成，SVG 图标为项目绘制；公开古典金句保留出处。

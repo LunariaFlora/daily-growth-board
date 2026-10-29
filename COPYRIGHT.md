@@ -1,5 +1,7 @@
 # Copyright
 
-本项目尚未指定开源许可证。准备公开源码不代表已授予复制、修改、再分发或商业使用许可。
+Copyright (c) 2026 日有所积 contributors
 
-第三方组件保留各自许可；公开古典原文不适用本项目的版权声明。正式发布前可由项目权利人选择并添加 LICENSE。
+本项目采用 MIT 许可证，完整条款见 [LICENSE](LICENSE)。
+
+第三方组件继续遵循其自身许可，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。公开古典原文保留出处。

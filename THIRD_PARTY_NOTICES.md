@@ -6,4 +6,4 @@
 - Background artwork was generated with OpenAI image generation. SVG icons and interface artwork are project assets; no external brand logos are bundled.
 - Default quotations cite the public-domain classical texts 《道德经》 and 《荀子·劝学》. Reference links are included in `default-quotes.md`.
 
-The license of each bundled dependency continues to apply independently of the project's license choice.
+The license of each bundled dependency continues to apply independently of the project's MIT license.

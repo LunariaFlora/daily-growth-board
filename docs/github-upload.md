@@ -2,7 +2,7 @@
 
 使用另行准备的 `github-ready/daily-growth-board` 干净目录，而不是开发工作目录的旧 Git 历史。
 
-1. 确认许可文件符合自己的发布意愿。
+1. 项目已采用 MIT 许可证，上传时一并保留 LICENSE 和第三方许可。
 2. 在 GitHub 新建空仓库，推荐名称 `daily-growth-board`，不要自动创建 README。
 3. 在干净目录打开终端，按 GitHub 提供的仓库地址执行：
 
