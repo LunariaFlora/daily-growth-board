@@ -1,0 +1,16 @@
+data/
+runtime/
+build/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+*.lnk
+*.exe
+*.zip
+*.sha256
+/previews/
+/design-ledger.json
+
+/public/icons/icon-05-night.ico

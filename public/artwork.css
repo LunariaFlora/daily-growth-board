@@ -1,0 +1,37 @@
+/* Art owns the saturated color; writing stays on a calm paper surface. */
+.theme-art{display:block;width:100%;object-fit:cover}
+body[data-style="02"] .tech .ink-panel{background:#faf9f3!important;color:#303a45;--accent:#2149bd;--on-accent:#fff;--hover:#2149bd12;border-left:5px solid #244ac6;box-shadow:0 4px 22px #172c5010}
+body[data-style="02"] .tech .ink-panel::before{display:none}
+body[data-style="02"] .tech .lane-top h2{color:#2149bd}
+body[data-style="02"] .lane textarea,body[data-style="02"] .tasks label,body[data-style="02"] .add-task input{color:#303a45}
+body[data-style="02"] .lane textarea{font-size:15px;line-height:1.95}
+body[data-style="02"] .cobalt-art{height:235px;object-position:65% center}
+body[data-style="02"] .side-print .quote-card{border-top:0!important;min-height:0;padding:24px 0 10px!important}
+body[data-style="02"] .quote-card .quote-mark{display:none}
+body[data-style="02"] .quote-card blockquote{font-size:24px!important;line-height:1.8!important;margin:24px 0!important;font-weight:500}
+body[data-style="02"] .quote-card cite{padding-top:12px}
+body[data-style="05"] .lane.tech{background:#fbf6eb;color:#3b3730;--accent:#a44d36;--on-accent:#fff;--hover:#a44d3612;border-top:6px solid #b65338;border-radius:0;box-shadow:3px 4px 0 #b6533812}
+body[data-style="05"] .tech h2{color:#a94c35}
+body[data-style="05"] .tech .task-wrap{border-color:#a44d3633}
+body[data-style="05"] .lane textarea{font-size:15px;line-height:1.95}
+body[data-style="05"] .lane.project{background:#eef0e2}
+body[data-style="05"] .lane.school{background:#f5f0e7}
+body[data-style="05"] .quote-cutout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:36px;align-items:center;border-top:1px solid #302e2c33!important;padding:26px 0!important}
+body[data-style="05"] .terra-art{height:220px;object-position:35% center}
+body[data-style="05"] .quote-cutout .quote-card{display:block!important;border:0!important;padding:0!important}
+body[data-style="05"] .quote-cutout .quote-card .quote-kicker{display:flex!important}
+body[data-style="05"] .quote-cutout .quote-card blockquote{margin:20px 0!important;font-size:27px!important}
+.icon-options{border:0;padding:0;margin:0 0 20px;display:flex;gap:12px}.icon-options legend{font-size:12px;margin-bottom:12px}.icon-options label{position:relative;cursor:pointer}.icon-options img{width:42px;height:42px;border-radius:11px;padding:2px;border:2px solid transparent}.icon-options input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}.icon-options input:checked+img{border-color:var(--accent);box-shadow:0 0 0 3px var(--hover)}.icon-options input:focus-visible+img{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:720px){body[data-style="02"] .cobalt-art{height:200px}body[data-style="05"] .quote-cutout{grid-template-columns:1fr;gap:20px}body[data-style="05"] .terra-art{height:210px}body[data-style="05"] .quote-cutout .quote-card blockquote{font-size:24px!important}}
+/* Images belong to the quote surface, fading into its paper rather than taking a separate column. */
+body[data-style="02"] .side-print,body[data-style="05"] .quote-cutout{position:relative;isolation:isolate;overflow:hidden}
+body[data-style="02"] .cobalt-art,body[data-style="05"] .terra-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;z-index:-1}
+body[data-style="02"] .cobalt-art{object-position:65% center;opacity:.22;mask-image:linear-gradient(180deg,#000 0%,#0009 55%,transparent 100%)}
+body[data-style="02"] .side-print .quote-card{padding:30px 26px!important;min-height:440px}
+body[data-style="05"] .quote-cutout{display:block;min-height:300px;padding:40px 44px!important;border-top:0!important;background:#f4efe3}
+body[data-style="05"] .terra-art{object-position:80% 55%;opacity:.32;mask-image:linear-gradient(90deg,transparent 5%,#0008 48%,#000 100%)}
+body[data-style="05"] .quote-cutout .quote-card{position:relative;max-width:920px;background:transparent!important}
+body[data-style="05"] .quote-cutout .quote-card blockquote{max-width:760px;line-height:1.85!important}
+body.quote-type .theme-art,body.quote-hidden .theme-art{display:none}
+@media(max-width:720px){body[data-style="05"] .quote-cutout{padding:28px 24px!important}body[data-style="05"] .terra-art{opacity:.24;object-position:65% center;mask-image:linear-gradient(180deg,#000,transparent)}body[data-style="02"] .side-print .quote-card{min-height:340px}}
+.focus-goal{display:flex;align-items:center;gap:20px;padding:28px 0;margin-top:24px;border-top:1px solid var(--line,#8885);color:inherit;grid-column:1/-1}.focus-goal[hidden]{display:none!important}.focus-goal>div:first-child{flex:1;min-width:0}.focus-goal small{font-size:12px;opacity:.6;letter-spacing:.08em}.focus-goal h3{font-size:20px;line-height:1.6;margin:8px 0;overflow-wrap:anywhere}.focus-goal time{font-size:12px;opacity:.6}.goal-counter{display:flex;flex-direction:column;align-items:center;flex-shrink:0}.goal-counter strong{font-size:54px;font-weight:400;line-height:1.1;font-variant-numeric:tabular-nums}.goal-counter span{font-size:12px;opacity:.65;margin-top:8px}.focus-goal .icon{align-self:flex-start}.focus-goal.overdue .goal-counter{opacity:.75}body[data-style="02"] .focus-goal{grid-column:auto}body[data-style="03"] .focus-goal{color:#d9c99f}@media(max-width:720px){.focus-goal{gap:12px;padding:22px 0}.focus-goal h3{font-size:17px}.goal-counter strong{font-size:40px}}

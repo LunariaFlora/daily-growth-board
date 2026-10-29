@@ -1,0 +1,27 @@
+name: Validate and package
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare bundled runtime and launcher
+        shell: powershell
+        run: ./scripts/prepare-windows.ps1
+      - name: Test
+        shell: powershell
+        run: ./runtime/python.exe -X utf8 -m unittest test_server.py -v
+      - name: Package
+        shell: powershell
+        run: ./runtime/python.exe -X utf8 build_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-portable
+          path: |
+            ../日有所积-Windows便携版.zip
+            ../日有所积-Windows便携版.zip.sha256

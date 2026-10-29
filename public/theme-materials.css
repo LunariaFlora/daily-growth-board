@@ -1,0 +1,36 @@
+/* Each surface follows its own material, rather than a shared brush mask. */
+#sync-help{width:min(680px,94vw);max-height:90vh;overflow:auto;padding:26px 30px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;box-shadow:0 24px 100px #0003}#sync-help h2{font-size:24px;margin:0 0 20px}#sync-help .routing-diagram{display:block;width:100%;height:auto;margin:0 0 22px}#sync-help p{font-size:13px!important;line-height:1.8;margin:0 0 16px}#sync-help .path-tip{border-top:1px solid var(--line);padding-top:12px;opacity:.7;font-size:11px!important}#sync-help code{font-family:inherit;background:var(--hover);padding:2px 5px}
+body[data-style="02"] .tech .ink-panel::before{mask:none;background:#234bc5}
+body[data-style="02"] .tech .ink-panel{padding:32px;box-shadow:8px 8px 0 #234bc522}
+body[data-style="02"] .side-print{background:transparent}
+body[data-style="02"] .side-print .quote-card{background:transparent!important;color:#173dac;border-top:5px solid #234bc5!important;padding-top:22px!important}
+body[data-style="02"] .quote-card::before,body[data-style="02"] .quote-card::after{display:none}
+body[data-style="02"] .quote-card blockquote{font-family:'Microsoft YaHei',sans-serif!important;font-weight:600;line-height:1.65!important}
+body[data-style="03"] .lane-stripe{display:none}
+body[data-style="03"] .lane{background:#202623;border:1px solid #b3c0a520;border-radius:8px}
+body[data-style="03"] .lane.tech{border-top:2px solid #ba9a66;background:linear-gradient(120deg,#29332b,#1c2421)}
+body[data-style="03"] .night-number{display:none}
+body[data-style="03"] .night-secondary .lane{background:#1b2223}
+body[data-style="03"] .night-secondary .school{background:#202220;border-color:#b3c0a510}
+body[data-style="03"] .lane-title small{letter-spacing:.16em;font-size:9px;opacity:.65}
+body[data-style="04"] .notepaper::before{mask:none;background:transparent}
+body[data-style="04"] .notepaper{border-top:1px solid #788d6744;padding:24px 26px!important}
+body[data-style="04"] .tech .notepaper{background:#e0e7d1!important;border:1px solid #819b6c33;box-shadow:2px 3px 0 #aab69425}
+body[data-style="04"] .project .notepaper,body[data-style="04"] .school .notepaper{background:repeating-linear-gradient(0deg,transparent,transparent 29px,#71805b0a 29px,#71805b0a 30px)!important}
+body[data-style="04"] .notebook{transform:none;box-shadow:3px 4px 0 #d5dac9,7px 8px 0 #dfe2d4;padding-top:34px}
+body[data-style="04"] .tab-number{border-radius:2px 0 0 2px}
+body[data-style="04"] .garden-margin .quote-card{background:none!important;border-left:2px solid #80916c55!important;padding-left:22px!important}
+body[data-style="04"] .quote-card::before,body[data-style="04"] .quote-card::after{display:none}
+body[data-style="05"] .lane::before{mask:none;display:none}
+body[data-style="05"] .lane{box-shadow:4px 5px 0 #302e2c10}
+body[data-style="05"] .lane.tech{background:#b34c31;border-radius:0 24px 0 0;min-height:100%}
+body[data-style="05"] .lane.project{background:#dedfc7;border-top:5px solid #7e8664}
+body[data-style="05"] .lane.school{background:#eee7da;border:1px solid #b6aa9455}
+body[data-style="05"] .lead-cutout{transform:rotate(-.6deg)}
+body[data-style="05"] .project-cutout{transform:rotate(.6deg)}
+body[data-style="05"] .school-cutout{transform:rotate(-.3deg)}
+body[data-style="05"] .cutout-index>span{display:none}
+body[data-style="05"] .quote-cutout .quote-card{background:transparent!important;border-top:2px solid #302e2c!important;border-bottom:1px solid #302e2c55!important;padding:24px 0!important}
+body[data-style="05"] .quote-card::before,body[data-style="05"] .quote-card::after{display:none}
+.setting-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.setting-title h3{margin:0}.help-icon{width:28px;height:28px;min-width:28px;min-height:28px;padding:4px}.help-icon svg{width:20px;height:20px}.sync-help{font-size:12px;line-height:1.8;padding:12px 15px;background:var(--hover);border-left:2px solid var(--accent);margin-bottom:14px}.sync-help p{font-size:12px!important;margin:0 0 10px}.sync-help p:last-child{margin:0}#obsidian-path{font-size:12px!important}.lane-top{gap:10px}.lane-top h2{overflow-wrap:anywhere}.lane-title{flex:1}.lane-title small{overflow-wrap:anywhere}
+@media(max-width:720px){body[data-style="02"] .tech .ink-panel{padding:22px;box-shadow:4px 4px 0 #234bc522}body[data-style="04"] .notepaper{padding:22px 16px!important}body[data-style="05"] .lead-cutout,body[data-style="05"] .project-cutout,body[data-style="05"] .school-cutout{transform:none}}
