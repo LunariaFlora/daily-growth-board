@@ -13,4 +13,4 @@ git push -u origin main
 
 也可解压 `日有所积-GitHub源码.zip` 后通过 GitHub 网页上传里面的文件。不要上传自己的 data、运行环境、浏览器配置或开发目录的 .git。
 
-推送后查看 Actions 测试。准备发布时创建 `v1.0.0` Release，粘贴 docs/release-notes.md 内容，上传便携 ZIP 与 SHA-256 文件。当前尚未创建远程仓库、推送或发布 Release。
+推送后查看 Actions 测试。准备发布时创建 `v1.0.0` Release，粘贴 docs/release-notes.md 内容，上传便携 ZIP 与 SHA-256 文件。仓库地址：https://github.com/LunariaFlora/daily-growth-board 。后续更新可继续推送到 main 并创建新的 Release。

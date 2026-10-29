@@ -8,7 +8,7 @@
 
 ## 开始使用
 
-下载 Release 中的 **日有所积-Windows便携版.zip**，完整解压，双击 **日有所积.exe**。
+从 [Releases](https://github.com/LunariaFlora/daily-growth-board/releases/latest) 下载 **日有所积-Windows便携版.zip**，完整解压，双击 **日有所积.exe**。
 
 - Windows 10 / 11，64 位；需要 Chrome 或 Edge。
 - 便携版自带 Python，无需安装开发环境或注册账号。
